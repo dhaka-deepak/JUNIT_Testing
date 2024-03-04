@@ -1,0 +1,38 @@
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/cloud_vendor
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: Deepak123@
+#
+#  mvc:
+#    path match:
+#      matching-strategy: ANT_PATH_MATCHER
+#
+#  jpa:
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQLDialect
+#        ddl-auto: update
+#        generate-ddl: auto
+#      javax:
+#        persistence:
+#          jdbc:
+#            password: Deepak123@
+#            user: root
+#
+#  jpa.hibernate.ddl_auto: create
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "health, beans, metrics"
+#      base-path: "/management-dashboard"
+#  endpoint:
+#    health:
+#      show-details: always
+#
+#dummyService:
+#  port: 8081
+#  address: 127.0.0.1
